@@ -1,0 +1,360 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"UserInput"
+			],
+			[
+				"For",
+				"FormulaVariable"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "DjangoStart",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"git bra",
+				"Git: New Branch"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"nex",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 515.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lauris/Repositories/captainx/captainx/urls.py",
+		"/Users/lauris/Repositories/captainx/resttest/urls.py",
+		"/Users/lauris/Repositories/captainx/resttest/serializers.py",
+		"/Users/lauris/Repositories/captainx/captainx/settings.py",
+		"/Users/lauris/Repositories/captainx/captainx.sublime-project",
+		"/Users/lauris/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/lauris/Repositories/captainx/.gitignore",
+		"/Users/lauris/Repositories/captainx/.env",
+		"/Users/lauris/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/lauris/Repositories/captainx/Procfile",
+		"/Users/lauris/Repositories/captainx/captainx/wsgi.py",
+		"/Users/lauris/Repositories/CaptainStartup/methodology/admin.py",
+		"/Users/lauris/Repositories/CaptainStartup/fabfile/captain.py",
+		"/Users/lauris/Repositories/CaptainStartup/fabfile/__init__.py",
+		"/Users/lauris/Repositories/CaptainStartup/fabfile/local_config.py",
+		"/Users/lauris/Repositories/CaptainStartup/fabfile/setup.py",
+		"/Users/lauris/Repositories/CaptainStartup/fabfile/servdev.py",
+		"/Users/lauris/Repositories/CaptainStartup/matrix/admin.py",
+		"/Users/lauris/Repositories/CaptainStartup/about/admin.py",
+		"/Users/lauris/Repositories/CaptainStartup/about/models.py",
+		"/Users/lauris/Repositories/CaptainStartup/captain.sublime-project",
+		"/Users/lauris/Repositories/CaptainStartup/adventure/models.py",
+		"/Users/lauris/Repositories/CaptainStartup/sfs/urls.py",
+		"/Users/lauris/Repositories/CaptainStartup/mission/models.py",
+		"/Users/lauris/Repositories/CaptainStartup/mission/metrics.py",
+		"/Users/lauris/Repositories/CaptainStartup/mission/forms.py",
+		"/Users/lauris/Repositories/CaptainStartup/mission/admin.py",
+		"/Users/lauris/Repositories/CaptainStartup/methodology/views.py",
+		"/Users/lauris/Repositories/CaptainStartup/methodology/urls.py",
+		"/Users/lauris/Repositories/CaptainStartup/methodology/translation.py",
+		"/Users/lauris/Repositories/CaptainStartup/methodology/models.py",
+		"/Users/lauris/Repositories/CaptainStartup/adventure/json.py",
+		"/Users/lauris/Repositories/CaptainStartup/adventure/decorators.py",
+		"/Users/lauris/Repositories/CaptainStartup/about/translation.py",
+		"/Users/lauris/Repositories/CaptainStartup/about/urls.py",
+		"/Users/lauris/Repositories/CaptainStartup/about/views.py",
+		"/Users/lauris/Repositories/CaptainStartup/adventure/forms.py",
+		"/Users/lauris/Repositories/CaptainStartup/adventure/metrics.py",
+		"/Users/lauris/Repositories/CaptainStartup/adventure/signals.py",
+		"/Users/lauris/Repositories/CaptainStartup/adventure/tests.py",
+		"/Users/lauris/Repositories/CaptainStartup/adventure/urls.py",
+		"/Users/lauris/Repositories/CaptainStartup/adventure/utils.py",
+		"/Users/lauris/Repositories/CaptainStartup/adventure/views.py",
+		"/Users/lauris/Repositories/CaptainStartup/matrix/models.py",
+		"/Users/lauris/Repositories/CaptainStartup/matrix/query_test.py",
+		"/Users/lauris/Repositories/CaptainStartup/matrix/tests.py",
+		"/Users/lauris/Repositories/CaptainStartup/matrix/urls.py",
+		"/Users/lauris/Repositories/CaptainStartup/matrix/views.py",
+		"/Users/lauris/Repositories/CaptainStartup/mission/signals.py",
+		"/Users/lauris/Repositories/CaptainStartup/mission/tests.py",
+		"/Users/lauris/Repositories/CaptainStartup/mission/translation.py",
+		"/Users/lauris/Repositories/CaptainStartup/mission/urls.py",
+		"/Users/lauris/Repositories/CaptainStartup/mission/views.py",
+		"/Users/lauris/Repositories/CaptainStartup/promotional/urls.py",
+		"/Users/lauris/Repositories/CaptainStartup/promotional/views.py",
+		"/Users/lauris/Repositories/CaptainStartup/sfs/settings/__init__.py",
+		"/Users/lauris/Repositories/CaptainStartup/sfs/settings/components/feedback.py",
+		"/Users/lauris/Repositories/CaptainStartup/sfs/settings/components/locale.py",
+		"/Users/lauris/Repositories/CaptainStartup/sfs_snippets/decorators.py",
+		"/Users/lauris/Repositories/CaptainStartup/sfs_snippets/json_utils.py",
+		"/Users/lauris/Repositories/CaptainStartup/sfs_snippets/mail_backends.py",
+		"/Users/lauris/Repositories/CaptainStartup/sfs_snippets/middleware.py",
+		"/Users/lauris/Repositories/CaptainStartup/sfs_snippets/models.py",
+		"/Users/lauris/Repositories/CaptainStartup/sfs_snippets/tests.py",
+		"/Users/lauris/Repositories/CaptainStartup/sfs_snippets/templatetags/ascii_art.py",
+		"/Users/lauris/Repositories/CaptainStartup/user_manager/tasks.py",
+		"/Users/lauris/Repositories/CaptainStartup/user_manager/views.py",
+		"/Users/lauris/Repositories/CaptainStartup/user_manager/urls.py",
+		"/Users/lauris/Repositories/CaptainStartup/user_manager/tests.py",
+		"/Users/lauris/Repositories/CaptainStartup/user_manager/signals.py",
+		"/Users/lauris/Repositories/CaptainStartup/user_manager/models.py",
+		"/Users/lauris/Repositories/CaptainStartup/user_manager/metrics.py",
+		"/Users/lauris/Repositories/CaptainStartup/user_manager/forms.py",
+		"/Users/lauris/Repositories/CaptainStartup/sfs_snippets/views.py",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/admin/css/nested.css",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/autosize/autosize.jquery.json",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/autosize/component.json",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/autosize/demo.html",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/autosize/jquery.autosize-min.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/autosize/jquery.autosize.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/Makefile",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/docs/assets/js/holder/holder.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/docs/build/node_modules/hogan.js/.gitmodules",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/docs/build/node_modules/hogan.js/Makefile",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/docs/build/node_modules/hogan.js/test/index.html",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/docs/build/node_modules/hogan.js/test/mustache.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/docs/build/node_modules/hogan.js/web/index.html.mustache",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/docs/build/node_modules/hogan.js/web/stylesheets/layout.css",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/js/tests/vendor/qunit.css",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/js/tests/vendor/qunit.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/less/mixins.less",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/less/variables.less",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/connect/lib/public/style.css",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/connect/node_modules/crc/.gitmodules",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/connect/node_modules/crc/README.md",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/connect/node_modules/crc/lib/crc.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/connect/node_modules/crc/tests/crc_tests.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/connect/node_modules/crc/tests/nodeunit/Makefile",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/connect/node_modules/crc/tests/nodeunit/lib/reporters/html.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/connect/node_modules/crc/tests/nodeunit/test/fixtures/raw_jscode1.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/connect/node_modules/crc/tests/nodeunit/test/fixtures/raw_jscode2.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/connect/node_modules/formidable/Makefile",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/connect/node_modules/mime/types/mime.types",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/connect/node_modules/qs/.gitmodules",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/connect/node_modules/qs/Makefile",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/hogan.js/.gitmodules",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/hogan.js/Makefile",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/hogan.js/test/jquery.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/hogan.js/test/mustache.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/hogan.js/test/qunit.css",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/hogan.js/test/qunit.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/hogan.js/web/index.html.mustache",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/hogan.js/web/stylesheets/layout.css",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/makefile",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/README.md",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/node_modules/less/CONTRIBUTING.md",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/node_modules/less/Makefile",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/node_modules/less/lib/less/browser.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/node_modules/less/lib/less/tree/element.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/node_modules/less/lib/less/tree/import.js",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/node_modules/less/node_modules/ycssmin/Makefile",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/node_modules/less/node_modules/ycssmin/README.md",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/node_modules/less/node_modules/ycssmin/tests/files/bug2527974.css",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/node_modules/less/node_modules/ycssmin/tests/files/concat-charset.css",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/node_modules/less/node_modules/ycssmin/tests/files/dataurl-dbquote-font.css",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/node_modules/less/node_modules/ycssmin/tests/files/dollar-header.css",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/node_modules/less/node_modules/ycssmin/tests/files/media-empty-class.css",
+		"/Users/lauris/Repositories/CaptainStartup/3rd_party/static/bootstrap/node_modules/recess/node_modules/less/node_modules/ycssmin/tests/files/special/linebreakpos.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.py",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"#-",
+			"Email",
+			"Mail",
+			"	",
+			"fab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"# -",
+			"    "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"project": "model-mixin.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 367.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
