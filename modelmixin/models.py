@@ -2,7 +2,7 @@ from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
 
-class OrderedModelMixin(models.Model):
+class OrderedMixin(models.Model):
     '''
     A model with a field that represents a relative order
 
@@ -19,7 +19,7 @@ class OrderedModelMixin(models.Model):
         ordering = ['ordering', 'pk']
 
 
-class DescriptiveModelMixin(models.Model):
+class DescriptiveMixin(models.Model):
     '''
     A model with a name and an optional description
 
@@ -45,3 +45,19 @@ class DescriptiveModelMixin(models.Model):
     # - - - - - - - - - - - - - - - - - - - - - -
     def __unicode__(self):
         return self.name
+
+
+class ModTrackingMixin(models.Model):
+    '''
+    A mixin to have a model keep track of modification and creation time
+
+    '''
+    created = models.DateTimeField(
+        auto_now_add=True
+        )
+    modified = models.DateTimeField(
+        auto_now=True
+        )
+
+    class Meta:
+        abstract = True
