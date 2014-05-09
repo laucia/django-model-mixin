@@ -4,7 +4,7 @@ from django.utils.translation import ugettext_lazy as _
 
 class OrderedMixin(models.Model):
     '''
-    A model with a field that represents a relative order
+    A mixin with a field that represents a relative order
 
     '''
     ordering = models.SmallIntegerField(
