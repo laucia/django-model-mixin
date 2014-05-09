@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
-
+import modelmixin
 setup(
     name='django-model-mixin',
-    version=__import__('model-mixin').__version__,
+    version=modelmixin.__version__,
     description='Useful and common Django Model mixins',
     author='Lauris Jullien',
     author_email='lauris.jullien@gmail.com',
